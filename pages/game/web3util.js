@@ -24,7 +24,7 @@ export const sendReward = () => {
         console.log(res);
         Swal.fire(
           "Transaction Completed",
-          "The Transaction for 0.1ETH has completed successfully Please wait for some time to reflect in your wallet !",
+          "The Transaction for 0.1ETH has completed successfully, Please wait for some time to reflect in your wallet !",
           "success"
         );
         console.log("Money sent to you !");
