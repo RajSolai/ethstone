@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { generateRandom, validateRound } from "./gameutil";
-import GameOverPage from "./overuh";
+import { generateRandom, validateRound } from "../../services/gameutil";
+import GameOverPage from "./over";
 
 export default function index() {
   const [computerChoice, setComputerChoice] = useState("-");

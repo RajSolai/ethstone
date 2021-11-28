@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Swal from "sweetalert2";
-import { connect, sendReward } from "./web3util";
+import { connect, sendReward } from "../../services/web3util";
 
 export default function GameOverPage({ score }) {
   useEffect(() => {

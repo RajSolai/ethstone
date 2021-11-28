@@ -1,12 +1,13 @@
 {
   "name": "ethstone",
-  "version": "0.1.0",
-  "description": "Fancy Next.js app",
+  "license": "GPL-3.0-or-later",
+  "version": "1.0.0",
+  "description": "Stone paper scissor on blockchain",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "build:static": "next build && next out"
+    "build:static": "next build && next export"
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
